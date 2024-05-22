@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 #!/usr/bin/python3
 """
 starts a Flask web application
 """
+=======
+
+#!/usr/bin/python3
+"""
+starts a Flask web applicationstart Flask application"""
+>>>>>>> 01ab989fc791a9bb63437a69dd58130562176b24
 
 from flask import Flask, render_template
 from models import *
@@ -23,3 +30,7 @@ def teardown_db(exception):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 01ab989fc791a9bb63437a69dd58130562176b24
